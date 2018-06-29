@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<parameter name="appURL" value="http://dev.villvay.com/thecabinetface"/>
+<parameter name="browserType" value="chrome"/>
+  <test name="Gudppl Automation Event">
+     <classes>
+      <class name="com.prod.testcases.EstimateTestCase"/>
+    </classes>
+  </test>
+</suite>

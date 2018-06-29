@@ -1,0 +1,2202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Gudppl Automation Event</td><td class="numi">69</td><td class="numi">21</td><td class="numi">0</td><td class="numi_attn">69</td><td class="numi">7,579.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Gudppl Automation Event &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="69">com.prod.testcases.EstimateTestCase</td><td><a href="#m1"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m2"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m3"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m4"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m5"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m6"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m7"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m8"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m9"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m10"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m11"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m12"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m13"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m14"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m15"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m16"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m17"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m18"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m19"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m20"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m21"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m22"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m23"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m24"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m25"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m26"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m27"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m28"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m29"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m30"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m31"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m32"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m33"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m34"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m35"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m36"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m37"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m38"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m39"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m40"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m41"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m42"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m43"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m44"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m45"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m46"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m47"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m48"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m49"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m50"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m51"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m52"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m53"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m54"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m55"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m56"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m57"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m58"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m59"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m60"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m61"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m62"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m63"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m64"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m65"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m66"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m67"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m68"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr><tr class="failedodd"><td><a href="#m69"><b>testSignIn</b>  </a></td><td class="numi">48</td><td>1530169046267</td><td class="numi">7321825</td></tr>
+<tr><th colspan="4">Gudppl Automation Event &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="69">com.prod.testcases.EstimateTestCase</td><td><a href="#m70"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m71"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m72"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m73"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m74"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m75"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m76"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m77"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m78"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m79"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m80"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m81"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m82"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m83"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m84"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m85"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m86"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m87"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m88"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m89"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m90"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m91"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m92"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m93"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m94"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m95"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m96"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m97"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m98"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m99"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m100"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m101"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m102"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m103"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m104"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m105"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m106"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m107"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m108"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m109"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m110"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m111"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m112"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m113"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m114"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m115"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m116"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m117"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m118"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m119"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m120"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m121"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m122"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m123"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m124"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m125"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m126"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m127"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m128"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m129"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m130"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m131"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m132"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m133"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m134"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m135"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m136"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m137"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr><tr class="passedodd"><td><a href="#m138"><b>testSignIn</b>  </a></td><td class="numi">21</td><td>1530168851477</td><td class="numi">5947792</td></tr>
+</table>
+<h1>Gudppl Automation Event</h1>
+<h2 id="m1">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>36x15 horizontal</td>
+<td>1</td>
+<td>36</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 67 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>15x42.5 (our size 16x43)</td>
+<td>1</td>
+<td>16</td>
+<td>43</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>Lower Filler (10x36)</td>
+<td>1</td>
+<td>10</td>
+<td>36</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x30 corner</td>
+<td>1</td>
+<td>15</td>
+<td>30</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[5]/div/select/option[text() = &apos;15x30 corner&apos; ]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:120)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>25x90 (our size 26x95)</td>
+<td>1</td>
+<td>26</td>
+<td>95</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x20 pull out</td>
+<td>1</td>
+<td>24</td>
+<td>20</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>in-cabinet appliance 5x30 w/trim package (if required)</td>
+<td>1</td>
+<td>5</td>
+<td>30</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>36x80 (our size 36x86)</td>
+<td>1</td>
+<td>36</td>
+<td>86</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x40</td>
+<td>1</td>
+<td>24</td>
+<td>40</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>in-cabinet appliance 5x24 w/trim package (if required)</td>
+<td>1</td>
+<td>5</td>
+<td>24</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 81 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x30</td>
+<td>1</td>
+<td>18</td>
+<td>30</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>15x90 (our size 16x95)</td>
+<td>1</td>
+<td>16</td>
+<td>95</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 68 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x60</td>
+<td>1</td>
+<td>15</td>
+<td>60</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 53 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x20 corner</td>
+<td>1</td>
+<td>15</td>
+<td>20</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>30x15</td>
+<td>1</td>
+<td>30</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cabinet Spacers</td>
+<td>5x85 (tall cab)</td>
+<td>1</td>
+<td>5</td>
+<td>85</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 42 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x15</td>
+<td>1</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x60</td>
+<td>1</td>
+<td>18</td>
+<td>60</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 29 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x60</td>
+<td>1</td>
+<td>24</td>
+<td>60</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>36x15</td>
+<td>1</td>
+<td>36</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 33 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>24x15</td>
+<td>1</td>
+<td>24</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>18x15</td>
+<td>1</td>
+<td>18</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 119 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>Lower Filler (10x36)</td>
+<td>1</td>
+<td>10</td>
+<td>36</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cabinet Spacers</td>
+<td>5x36 (lower)</td>
+<td>1</td>
+<td>5</td>
+<td>36</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x30 pull out</td>
+<td>1</td>
+<td>15</td>
+<td>30</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>unknown error: Element &lt;div class=&quot;select_wrap&quot;&gt;...&lt;/div&gt; is not clickable at point (357, 594). Other element would receive the click: &lt;td&gt;...&lt;/td&gt;
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 61 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:90)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>24x5</td>
+<td>1</td>
+<td>24</td>
+<td>5</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 129 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>Tall Filler (10x95)</td>
+<td>1</td>
+<td>10</td>
+<td>95</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cabinet Spacers</td>
+<td>5x33 (&lt;=30&quot;)</td>
+<td>1</td>
+<td>5</td>
+<td>33</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x20</td>
+<td>1</td>
+<td>18</td>
+<td>20</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 65 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>30x5</td>
+<td>1</td>
+<td>30</td>
+<td>5</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x40 corner</td>
+<td>1</td>
+<td>15</td>
+<td>40</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 24 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x50</td>
+<td>1</td>
+<td>15</td>
+<td>50</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>21x40</td>
+<td>1</td>
+<td>21</td>
+<td>40</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[2]/div[1]/div&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x20 pull out</td>
+<td>1</td>
+<td>18</td>
+<td>20</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x20</td>
+<td>1</td>
+<td>15</td>
+<td>20</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>15x32.5 (our size 16x33)</td>
+<td>1</td>
+<td>16</td>
+<td>33</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>30x10</td>
+<td>1</td>
+<td>30</td>
+<td>10</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 87 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x15</td>
+<td>1</td>
+<td>18</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>15x15</td>
+<td>1</td>
+<td>15</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cabinet Spacers</td>
+<td>5x43 (40&quot;upper)</td>
+<td>1</td>
+<td>5</td>
+<td>43</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 23 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x15 horizontal</td>
+<td>1</td>
+<td>24</td>
+<td>15</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 35 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:384)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x50</td>
+<td>1</td>
+<td>24</td>
+<td>50</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 171 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>36x96 (our size 36x95)</td>
+<td>1</td>
+<td>36</td>
+<td>95</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 59 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cabinet Spacers</td>
+<td>5x95 (taller cab)</td>
+<td>1</td>
+<td>5</td>
+<td>95</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x40</td>
+<td>1</td>
+<td>18</td>
+<td>40</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:53)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>Upper Filler (10x43)</td>
+<td>1</td>
+<td>10</td>
+<td>43</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>21x30</td>
+<td>1</td>
+<td>21</td>
+<td>30</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-select-options&apos;]/div[4]/div/div[4]/div[2]/label[3][text() = &apos;Unfinished (price reduced)&apos;]&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.clickOnUnfinish(CategoryPage.java:382)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:217)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Toe Kicks</td>
+<td>87x4.5</td>
+<td>1</td>
+<td>87</td>
+<td>4.5</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="8">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;div-materials-parts&apos;]/div[3]/div/div[3]/table/tbody/tr[2]/td[2]/div/select&quot;}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.40.0&apos;, revision: &apos;4c5c0568b004f67810ee41c459549aa4b09c651e&apos;, time: &apos;2014-02-19 11:13:01&apos;
+System info: host: &apos;DESKTOP-BADJCCG&apos;, ip: &apos;169.254.90.145&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\vijay\AppData\Local\Temp\scoped_dir13108_4095}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1bd7fd8f6ba36cb4319f98b36670891b</p>
+sun.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:326)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:423)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:318)
+<br/>at com.prod.estimate.CategoryPage.estimsteProcess(CategoryPage.java:81)
+<br/>at com.prod.testcases.EstimateTestCase.testSignIn(EstimateTestCase.java:83)
+<br/>24 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>30x15 horizontal</td>
+<td>1</td>
+<td>30</td>
+<td>15</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>15x5</td>
+<td>1</td>
+<td>15</td>
+<td>5</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x30</td>
+<td>1</td>
+<td>24</td>
+<td>30</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x20</td>
+<td>1</td>
+<td>24</td>
+<td>20</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>25x80 (our size 26x85)</td>
+<td>1</td>
+<td>26</td>
+<td>85</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>18x5</td>
+<td>1</td>
+<td>18</td>
+<td>5</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x20 pull out</td>
+<td>1</td>
+<td>15</td>
+<td>20</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>24x10</td>
+<td>1</td>
+<td>24</td>
+<td>10</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>36x10</td>
+<td>1</td>
+<td>36</td>
+<td>10</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>15x10</td>
+<td>1</td>
+<td>15</td>
+<td>10</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Cover Panels</td>
+<td>25x30 (our size 26x36)</td>
+<td>1</td>
+<td>26</td>
+<td>36</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>24x30 pull out</td>
+<td>1</td>
+<td>24</td>
+<td>30</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x40</td>
+<td>1</td>
+<td>15</td>
+<td>40</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x50</td>
+<td>1</td>
+<td>18</td>
+<td>50</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>12x30</td>
+<td>1</td>
+<td>12</td>
+<td>30</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>12x40</td>
+<td>1</td>
+<td>12</td>
+<td>40</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>21x20</td>
+<td>1</td>
+<td>21</td>
+<td>20</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>15x30</td>
+<td>1</td>
+<td>15</td>
+<td>30</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>18x10</td>
+<td>1</td>
+<td>18</td>
+<td>10</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Drawer Fronts</td>
+<td>36x5</td>
+<td>1</td>
+<td>36</td>
+<td>5</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">com.prod.testcases.EstimateTestCase:testSignIn</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th></tr>
+<tr class="param stripe"><td>Solid Wood Shaker</td>
+<td>Red Oak Solid Wood Shaker</td>
+<td>None</td>
+<td>Doors</td>
+<td>18x30 pull out</td>
+<td>1</td>
+<td>18</td>
+<td>30</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

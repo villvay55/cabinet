@@ -1,0 +1,364 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/21</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 19 15:32:06 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (918 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.initializeTestBaseSetup()'><b>initializeTestBaseSetup</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in C:\Users\vijay\AppData\Local\Temp\testng-eclipse-418933032\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1709366259", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1709366259'><pre>org.testng.TestNGException: 
+Parameter &apos;browserType&apos; is required by @Configuration on method initializeTestBaseSetup but has not been marked @Optional or defined
+in C:\Users\vijay\AppData\Local\Temp\testng-eclipse-418933032\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.setUp()'><b>setUp</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.tearDown()'><b>tearDown</b><br>Test class: com.prod.testcases.EstimateTestCase</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: userName, password, orgName, eventName, oppDetails, volNeed</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, Women’s History Month, March is Women's History Month. The Library of Congress, National Archives and Records Administration, National Endowment for the Humanities, National Gallery of Art, National Park Service, Smithsonian Institution and United States Holocaust Memorial Museum join in commemorating, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, THE GLOBAL LEADER, Ang mga sumusunod ay mahahalagang payo na kinakailangan upang lubusang gumaling: 1. Tamang Gamot 2. Kagustuhang Gumaling 3. Humingi ng Tulong sa Diyos. Breast Cancer, a Problem with a New Solution. Breast Cancer is considered to be a 'catastrophic disease' by the DOH , adversely affecting , explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, MVIVO Kick-off, Old-world construction is in the past! We empower people to design, and live in homes that last for generations and build them in just 4 months, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, LIFE 2017, Life is a 2017 American science fiction horror film directed by Daniel Espinosa, written by Rhett Reese and Paul Wernick and starring Jake Gyllenhaal, Rebecca Ferguson, and Ryan Reynolds., explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, BIRTHROOT, Birthroot Midwives provide experienced and comprehensive midwifery care in your own home or in our state of the art facility. We believe that pregnancy and birth are normal yet extraordinary life passages. Mothers and babies do best, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, YOUTH SPEAK FORUM, Youth Speak was born out of a simple idea. To harness the collective power of a global youth voice and their opinions, and discover what challenges they faced today in reaching their potential. And from there, we can take their opinions to decision makers, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, Sumo + Sushi, Sumo Sushi & Bento has been serving the best sushi in Dubai and throughout the GCC for more than 15 years, providing a unique family friendly, authentically fun Japanese restaurant. Now offering franchise opportunities globally, we continue to expand and offer this delicious experience, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, RUSSIAN CLASSICAL, Russian classical music is a genre of classical music related to Russia's culture, people, or character. The 19th-century romantic period saw the largest development of this genre, with the emergence in particular of The Five, a group of composers associated, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: malaravan2070@gmail.com, qazwsx, California Raiders, St. Patrick’s Day in NYC, Patrick's Day (NYC-style) at these epic parties and events, including the annual St. Patrick's Day Parade. During the procession, participants jaunt along Fifth Avenue and pass by venerable New York attractions, explain to people current problem</td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, BOHEMIAN FESTIVAL, What is Bohemian Nights at NewWestFest? Bohemian Nights at NewWestFest is a free, three-day music festival held each August in historic downtown Fort Collins. The 2018 festival will take place Aug. 10, 11 and 12. The 2018 lineup will be announced in the summer. The annual festival is co-produced, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, THE JOURNEY, THE JOURNEY is the gripping account of how two men from opposite sides of the political spectrum came together to change the course of history. In 2006, amid the decades-long conflict in Northern Ireland, representatives from the two warring factions meet for negotiations. In one corner, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, MAC & CHEESE SMACKDOWN, Grab your sporks and warm up with NYC's best mac and cheese contenders on Sunday, March 18 at Brooklyn Expo Center. Time Out New York is blowing it out even bigger and better this year featuring 20 of the city's best restaurants, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, The Macy’s Flower Show, Our "Once Upon a Springtime" show will run March 25–April 8 in New York, Chicago & San Francisco—check back soon for more details! ... During our annual welcome to spring, Macy’s marquee stores in New York, Chicago and San Francisco transform into breathtaking, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, Dessert Goals, New York City Spring Disco 2018. Because dessert is always a good idea, Dessert Goals is back for our fourth fest in NYC! Enjoy a curated selection of the very best desserts in New York, this time with DOUBLE the tickets on back-to-back weekends!, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, The Armory Show, Five physical exhibitions in 2013 celebrated the 100th anniversary of the 1913 Armory Show, as well as a number of publications, virtual exhibitions, and programs. The first exhibition, “The New Spirit: American Art in the Armory Show, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, Open Market 2018, he FOMC holds eight regularly scheduled meetings during the year and other meetings as needed. Links to policy statements and minutes are in the calendars below. The minutes of regularly scheduled meetings are released three weeks after the date of the policy decision., </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, Flamenco Festival, This year's 15th anniversary Flamenco Festival London offers a vibrant spectrum of flamenco from the traditional Gypsy roots to its modern-day incarnations, performed by some of the world's most outstanding and legendary flamenco dance and music talent., </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, The Orchid Show, Now in its 16th year, The Orchid Show showcases thousands of dramatically displayed orchids in the Enid A. Haupt Conservatory featuring a series of installations crafted by Daniel Ost. Each living sculpture celebrates the complex beauty of these stunning flowers, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, Ultra-Mega Oscars 2018, Nitehawk Cinema proudly presents our 7th Annual OSCARS VIEWING PARTY on March 4th! What could be more glamorous than watching all the drama, tears, and glory of Hollywood's biggest night on the big screen with tableside food and beverage? Who will win?, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+<tr>
+<td title='com.prod.testcases.EstimateTestCase.testSignIn()'><b>testSignIn</b><br>Test class: com.prod.testcases.EstimateTestCase<br>Parameters: labaen2017@gmail.com, qazwsx, Newyork walkers, Mumbai Holi Festival, Celebrate the festival of Holi in traditional style this year, as Grand Mumbai is organizing a full-fledged Holi event for you. This exciting event features a 2-day celebration which will begin on the night before Holi with the ceremony of Holika Dahan, </td>
+<td></td>
+<td>0</td>
+<td>com.prod.testcases.EstimateTestCase@4cf777e8</td></tr>
+</table><p>
+</body>
+</html>
